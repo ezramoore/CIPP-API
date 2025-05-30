@@ -24,6 +24,5 @@ jobs:
         id: fa
         with:
           app-name: 'cipprivbq'
-          slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_40190A5C83464147A13175787F45868E }}
